@@ -33,7 +33,7 @@ float func_probabilidade(int x, int n, float p) {
 
 int main() {
     float prob_x;   // probabilidade de ocorrer x
-    float p = 0.5;  // probabilidade de ocorrer sucesso. No meu problema é 50%
+    float p = 0.5;  // probabilidade de ocorrer sucesso. Neste problema é de 50%
     int x;          // variável aleatória binomial. numero de "sucessos" em n tentativas
     int n = 10;     // numero de ensaios aleatórios independentes reproduzidos
     float percent_total=0;
