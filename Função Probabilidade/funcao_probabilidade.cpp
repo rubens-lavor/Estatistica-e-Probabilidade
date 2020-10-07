@@ -1,6 +1,5 @@
-#include <math.h>
-
 #include <iostream>
+#include <math.h>
 
 //Nesse exemplo uma moeda está sendo lançada aleatóriamente 10 vezes.
 //X é o numero de caras. 
