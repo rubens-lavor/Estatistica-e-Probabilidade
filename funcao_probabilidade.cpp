@@ -12,7 +12,7 @@ unsigned long int fat(int n) {
 
 //Função Probabilidade de X - Distribuição Binomial
 float func_probabilidade(int x, int n, float p) {
-    return ((fat(n) / fat(n - x) * fat(x)) * pow(p, x) * pow((1 - p), (n - x)));
+    return ((fat(n) / (fat(n - x) * fat(x))) * pow(p, x) * pow((1 - p), (n - x)));
 }
 
 int main() {
@@ -21,7 +21,9 @@ int main() {
     int x = 1;      // variável aleatória binomial. numero de "sucessos" em n tentativas
     int n = 10;     // numero de ensaios aleatórios independentes reproduzidos
 
-    prob_x = func_probabilidade(x, n, p);
-
-    std::cout << "p(x=1)= " << prob_x << std::endl;
+    for (int i = 0; i < 11; i++) {
+        /* code */
+        prob_x = func_probabilidade(i, n, p);
+        std::cout << "p(x = " << i << " ) = " << prob_x << std::endl;
+    }
 }
