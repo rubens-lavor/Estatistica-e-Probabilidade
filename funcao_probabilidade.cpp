@@ -6,6 +6,7 @@
 //X é o numero de caras. 
 
 /* Calcular:
+    p(x = 0)
     p(x = 1)
     p(x = 2)
     p(x = 3)
@@ -36,10 +37,15 @@ int main() {
     float p = 0.5;  // probabilidade de ocorrer sucesso. No meu problema é 50%
     int x;          // variável aleatória binomial. numero de "sucessos" em n tentativas
     int n = 10;     // numero de ensaios aleatórios independentes reproduzidos
+    float percent_total=0;
 
     for (int x = 0; x < 11; x++) {
-        /* code */
         prob_x = func_probabilidade(x, n, p);
         std::cout << "p(x = " << x << " ) = " << prob_x << std::endl;
+        percent_total += prob_x;
     }
+
+    std::cout << percent_total << std::endl;    
+
+    return 0;
 }
