@@ -1,0 +1,10 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+1º : Inserir os dados dentro do arquivo data.txt em forma de coluna
+
+
+2º : executar o arquivo info_grafic
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
