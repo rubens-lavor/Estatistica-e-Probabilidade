@@ -2,7 +2,7 @@
 
 ### Função Probabilidade
 
-Programa desenvolvido para calcular a função probabilidade de x em uma distribuição binomial.
+Programa desenvolvido em c++ para calcular a função probabilidade de x em uma distribuição binomial.
 
 Nesse exemplo uma moeda está sendo lançada aleatóriamente 10 vezes. X é o numero de caras. 
 
@@ -26,4 +26,4 @@ Calculando a probabilidade de ocorrer:
 
 ### média e desvio padrão
 
-Cálculo de média, desvio padrão e plotagem de gráfico
+Cálculo de média, desvio padrão e plotagem de gráfico usando python.
