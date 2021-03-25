@@ -1,4 +1,6 @@
-## funcao_probabilidade.cpp
+# Estatísticca e Probabilidade
+
+### Função Probabilidade
 
 Programa desenvolvido para calcular a função probabilidade de x em uma distribuição binomial.
 
@@ -17,3 +19,11 @@ Calculando a probabilidade de ocorrer:
     p(x = 8)
     p(x = 9)
     p(x = 10)
+
+
+---
+
+
+### média e desvio padrão
+
+Cálculo de média, desvio padrão e plotagem de gráfico
